@@ -1,0 +1,24 @@
+{
+    "name": "pykstbi",
+    "description": "Bindings for stb_image.c",
+    "version": "0.0.1",
+    "main": "./lib/pykstbi",
+    "author": "Paul Tan <pyokagan@gmail.com>",
+    "keywords": ["stb_image", "image", "png", "jpg", "jpeg", "gif"],
+    "scripts": {
+        "rebuild": "node-gyp rebuild"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pyokagan/node-pykstbi.git"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/pyokagan/node-pykstbi/blob/master/LICENSE.txt"
+        }
+    ],
+    "dependencies": {
+        "bindings": "*"
+    }
+}
