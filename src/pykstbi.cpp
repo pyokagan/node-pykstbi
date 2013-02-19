@@ -99,8 +99,8 @@ namespace stbi {
 
 #define M(name) NODE_SET_METHOD(target, #name, stbi::name)
 
-void Init(Handle<Object> target) {
+void InitModule(Handle<Object> target) {
     M(loadFromMemory);
 }
 
-NODE_MODULE(pykstbi, Init);
+NODE_MODULE(pykstbi, InitModule);
